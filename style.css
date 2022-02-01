@@ -1,0 +1,203 @@
+body {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #15161B;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.logo span {
+    color: #1A7993;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.area-title h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.area-title h1 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
+.area-title a {
+    display: inline-block;
+    background-color: #1A7993;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.image1 img {
+    width: 380px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+/* area cards*/
+.section-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+.section-cards h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card {
+    background-color: #2C2F37;
+    width: 180px;
+    height: 120px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.card:hover {
+    background-color:#1A7993;
+    transition: 0,3s all;
+}
+
+.card img {
+    width: 30px;
+
+}
+
+/* SECTION -  */
+.section-3 {
+    background-color:#1A7993;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:80px;
+    margin-top: 40px;
+    margin-left: 280px;
+    margin-right: 260px;
+}
+
+.area-title-3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.area-title-3 h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: -10px;
+    padding: 5px 20px;
+    line-height: 40px;
+    margin-left: 50px;
+   
+    
+  
+    
+}
+.area-title-3 a {
+    display: inline-block;
+    background-color:#fff; 
+    cursor: pointer;
+    color: #15161B;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+
+.image2 img {
+    width: 400px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.formulario input {
+    margin-top: 10px;
+    height: 40px;
+    border: #2C2F37;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: osvald;
+
+}
+
+input::placeholder {
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    background-color: #1A7993;
+}
+
+
+.area-form h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: -10px;
+    padding: 5px 20px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+
